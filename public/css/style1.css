@@ -1,0 +1,121 @@
+body{
+  background-color: whitesmoke;
+}
+
+div#loginsucess {
+    width: 19%;
+    position: relative;
+    left: 78%;
+    top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-family: system-ui;
+    font-stretch: condensed;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.35); 
+     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.35);
+     animation:mymove 5s infinite;
+
+}
+
+@keyframes mymove{
+  from{right:3px;}
+  to{left: 900px;}
+}
+
+div#suceessalert {
+  width: 19%;
+  position: relative;
+  left: 78%;
+  top: 10px;
+  color: white;
+  font-weight: bolder;
+  font-family: system-ui;
+  font-stretch: condensed;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.35); 
+   box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.35);
+   animation:mymove 5s infinite;
+}
+
+@keyframes mymove{
+  from{right:3px;}
+  to{left: 900px;}
+}
+.alert_alert-success{
+  background-color:#5cb85c;
+  min-width: 150px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  border-color: lighten(#5cb85c, 10%);
+  color: darken(#5cb85c, 15%)
+  }
+
+  .alert_alert-warning{
+    background-color: #E2A41F;
+    min-width: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    border-color: lighten(#E2A41F, 10%);
+    color: darken(#E2A41F, 15%);
+   
+  }
+
+  .alert_alert-danger{
+    background-color: #d43f3a;
+    min-width: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    border-color: lighten(#d43f3a, 10%);
+    color: darken(#d43f3a, 15%);
+  }
+
+  p{
+    padding: 0;
+    margin: 0;
+  }
+  i{
+    padding-right: 5px;
+    vertical-align: middle;
+    font-size: 24px;
+  }
+  .close-alert{
+    -webkit-appearance: none;
+    position: relative;
+    float: right;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    color: inherit;
+    background: 0 0;
+    font-size: 21px;
+    line-height: 1;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    filter: alpha(opacity=40);
+    opacity: .4;
+}
+
+.close-alert :hover{
+  filter: alpha(opacity=70);
+  opacity: .7;
+}
+
+.shadow-1{
+  box-shadow: 0 1px 3px rgba(#000, .12), 0 1px 2px rgba(#000, .24) ;
+}
+.shadow-2{
+  box-shadow: 0 3px 6px rgba(#000, .16), 0 3px 6px rgba(#000, .23) ;
+}
+
+
+span{
+  /* padding-bottom: 100px; */
+  position: relative;
+  bottom: 25px;
+  color: red;
+}
